@@ -1,4 +1,4 @@
-$currentClass = ("BackgroundColor")
+let currentClass = "BackgroundColor";
 
 
 
