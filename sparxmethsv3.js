@@ -1,4 +1,4 @@
-let currentClass = "BackgroundColor";
+let currentClass = "_MainContent_13pic_40";
 
 
 
