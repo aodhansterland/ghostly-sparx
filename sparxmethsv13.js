@@ -8,6 +8,10 @@ let currentClass7 = "_MainContent_13pic_40";
 let currentClass8 = "_MainContent_13pic_40";
 
 // colours-interactable          |is icons
+alert('INJECTED!');
+
+
+javascript:document.getElementsByClassName('_Hello_1ehfm_21')[0].getElementsByTagName('a')[0].outerHTML+='color: orange;';
 
 
 if (currentClass !== "") { // check if currentClass is not an empty string
