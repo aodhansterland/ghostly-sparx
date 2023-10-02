@@ -25,3 +25,10 @@ if (currentClass2 !== "") { // check if currentClass is not an empty string
     elements[0].style.Color = "#ff7700"; // set the backgroundColor style property of the first element to #0097fd
   }
 }
+
+
+(function () {
+    var s = document.createElement('style')
+    s.innerText = "body { color: #ff7700 }"
+    document.head.appendChild(s)
+})();
