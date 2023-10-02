@@ -22,6 +22,6 @@ if (currentClass !== "") { // check if currentClass is not an empty string
 if (currentClass2 !== "") { // check if currentClass is not an empty string
   let elements = document.querySelectorAll(`.${currentClass2}`); // select all elements on the page that have the class specified by currentClass variable
   if (elements.length > 0) { // check if there is at least one element with the class
-    elements[0].style.Color = "#7f1e1e"; // set the backgroundColor style property of the first element to #0097fd
+    elements[0].Color = "#7f1e1e"; // set the backgroundColor style property of the first element to #0097fd
   }
 }
